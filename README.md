@@ -1,2 +1,2 @@
 # Foryourdog
-HKNU_Disital Publishing1_Final
+HKNU_Digital Publishing1_Final
