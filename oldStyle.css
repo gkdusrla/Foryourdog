@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Gugi', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+}
+
+#menuBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+
+#logo{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: rgb(62, 142, 176);
+    justify-content: flex-start;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#menus{
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: rgb(62, 142, 176);
+    justify-content: flex-start;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#menuList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: 'Gugi', cursive;
+    font-size: 18px;
+    color: rgb(62, 142, 176);
+    padding: 30px 0px;
+    justify-content: row;
+}
+
+#menuList li{
+    margin: 10px 120px;
+    justify-content: flex-end;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+#menu01 p:link { color: rgb(62, 142, 176); text-decoration: none;}
+#menu01 p:visited { color: rgb(62, 142, 176); text-decoration: none;}
+#menu01 p:hover { color: rgb(236, 109, 92); text-decoration: none;}
+
+#menu02 p:link { color: rgb(62, 142, 176); text-decoration: none;}
+#menu02 p:visited { color: rgb(62, 142, 176); text-decoration: none;}
+#menu02 p:hover { color: rgb(95, 95, 95); text-decoration: none;}
+
+#menu03 p:link { color: rgb(62, 142, 176); text-decoration: none;}
+#menu03 p:visited { color: rgb(62, 142, 176); text-decoration: none;}
+#menu03 p:hover { color: rgb(110, 182, 79); text-decoration: none;}
+
+#menu04 { color: rgb(137, 113, 176);}
+
+#menu05 p:link { color: rgb(62, 142, 176); text-decoration: none;}
+#menu05 p:visited { color: rgb(62, 142, 176); text-decoration: none;}
+#menu05 p:hover { color: rgb(236, 192, 92); text-decoration: none;}
+
+#sub4 img{
+    width: 50px;
+}
+
+#sub4{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0px 0px;
+    margin-left: -8px;
+    justify-content: center;
+    position: absolute;
+}
+
+#contents{
+    width: 1300px;
+    margin: auto;
+}
+
+#content01{
+    width: 1300px;
+}
+
+.innerGap{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.image1 img{
+    float: left;
+    width: 585px;
+    height: 585px;
+}
+
+.intro{
+    text-align: left;
+    padding: 75px 0px;
+}
+
+.intro mark{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(62, 142, 176);
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight:bold;
+}
+
+.intro p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+    text-align: start;
+    word-break: keep-all;
+}
+
+#content02{
+    width: 1080px;
+    margin: auto;
+}
+
+.innerGap2{
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.antioxidant mark{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(62, 142, 176);
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight:bold;
+}
+
+.antioxidant p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+    text-align: start;
+    word-break: keep-all;
+}
+
+#content03{
+    width: 1080px;
+    margin: auto;
+}
+
+.innerGap3{
+    display: flex;
+    width: 100%;
+    height: 70px;
+}
+
+.caution mark{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(62, 142, 176);
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight:bold;
+}
+
+.caution p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+    text-align: start;
+    word-break: keep-all;
+}
+
+#content04{
+    width: 1080px;
+    margin: auto;
+}
+
+.recommand mark{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: rgb(62, 142, 176);
+    font-size: 27px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    font-weight:bold;
+}
+
+.recommand p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+    text-align: start;
+    word-break: keep-all;
+}
+
+#content05{
+    width: 1080px;
+    height: 1000px;
+    margin: auto;
+}
+
+#up{
+    display: flex;
+    width: 1080px;
+    height: 400px;
+}
+
+#ac{
+    width: 700px;
+}
+
+.imageAc img{
+    float: left;
+    width: 211px;
+    cursor: pointer;
+}
+
+.acInfo{
+    height: 250px;
+    margin-top: 10px;
+}
+
+#acLeft{
+    float: left;
+}
+
+#acRight{
+    margin-left: 30px;
+    float: left;
+}
+
+#ao{
+    margin-left: 100px;
+    width: 600px;
+}
+
+.imageAo img{
+    float: left;
+    width: 120px;
+    cursor: pointer;
+}
+
+.aoInfo{
+    height: 250px;
+    margin-top: 10px;
+}
+
+#aoLeft{
+    float: left;
+}
+
+#aoRight{
+    margin-left: 30px;
+    float: left;
+}
+
+.innerGap4{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+#down{
+    display: flex;
+    width: 1080px;
+    height: 800px;
+}
+
+#dm{
+    width: 700px;
+}
+
+.imageDm img{
+    float: left;
+    width: 211px;
+    cursor: pointer;
+}
+
+.dmInfo{
+    height: 250px;
+    margin-top: 10px;
+}
+
+#dmLeft{
+    float: left;
+}
+
+#dmRight{
+    margin-left: 30px;
+    float: left;
+}
+
+.recommand2 h4{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    line-height: 50px;
+    text-align: right;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.recommand2 p1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+}
+
+.recommand2 p2{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    line-height: 50px;
+}
+
+.innerGap5{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 187px;
+    background-color: rgb(62, 142, 176);
+    margin: auto;
+}
+
+.footerContent{
+    width: 1300px;
+    text-align: center;
+    float: left;
+    margin: auto;
+}
+
+.left{
+    width: 1000px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+#f1{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: white;
+    justify-content: flex-start;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    display: flex;
+}
+
+#ftmenuList{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    font-family: 'Gugi', cursive;
+    font-size: 18px;
+    color: white;
+    margin: -14px 0px;
+    position: absolute;
+    clear: both;
+}
+
+#ftmenuList li{
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: inline;
+    float: right;
+}
+
+#f2{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 24px;
+    color: white;
+    justify-content: flex-end;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    float: right;
+}
+
+#email{
+    text-decoration: none;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    color: white;
+    justify-content: flex-end;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.arrow{
+    width: 60px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    opacity: 0;
+    transition:opacity 0.5s;
+}
+
+.on{
+    opacity: 1;
+    /*display: none;*/
+}
